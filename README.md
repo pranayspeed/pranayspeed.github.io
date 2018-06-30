@@ -2,8 +2,8 @@
 
 ## Cleaner Bot
 Demo
-{% youtube tzGm5WQNsWA %}
 
+{% youtube https://youtu.be/tzGm5WQNsWA %}
 
 # About the project
 Cleaner Bot Demo
