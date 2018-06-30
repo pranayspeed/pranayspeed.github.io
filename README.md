@@ -8,4 +8,4 @@ youtubeId: tzGm5WQNsWA
 Cleaner Bot Demo
 
 
-{% include youtubePlayer.html id=page.tzGm5WQNsWA %}
+{% include youtubePlayer.html id=page.youtubeId %}
