@@ -1,6 +1,6 @@
 
 ---
-youtubeId: --b-tzGm5WQNsWA
+youtubeId:tzGm5WQNsWA
 ---
 
 <!---
