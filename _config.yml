@@ -1,1 +1,35 @@
-theme: jekyll-theme-cayman
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# # Dependencies
+# markdown:         redcarpet
+#highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Pranay Meshram 
+tagline:          'Robotics Researcher'
+description:      'I am Robotics Graduate Student @ University at Buffalo, NY'
+url:              http://pranayspeed.com
+baseurl:          /
+
+author:
+  name:           'Pranay Meshram'
+  url:            http://pranayspeed.com
+
+
+paginate: 5
+paginate_path: ./page:num/
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/pranayspeed
