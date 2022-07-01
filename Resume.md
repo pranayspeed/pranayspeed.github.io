@@ -22,3 +22,6 @@ title: Resume
 
 ## TECHNICAL SKILLS
 {% include_relative _resumes/technical-skill.md%}
+
+## ACHIEVEMENTS
+{% include_relative _resumes/achievement.md%}
