@@ -10,7 +10,7 @@ highlighter: rouge
 #highlighter:      pygments
 
 # Permalinks
-permalink:        pretty/
+permalink:        pretty
 #relative_permalinks: true
 
 # Setup
