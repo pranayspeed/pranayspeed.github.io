@@ -4,7 +4,7 @@ title: Resume
 ---
 # Pranay Meshram
 
-[pranaywa@buffalo.edu](mailto:pranaywa@buffalo.edu) \| [linkedin.com/in/pranayspeed](https://linkedin.com/in/pranayspeed) \| [github.com/pranayspeed](https://github.com/pranayspeed)
+[pranaywa@buffalo.edu](mailto:pranaywa@buffalo.edu) \| [linkedin.com/in/pranayspeed](https://linkedin.com/in/pranayspeed) \| [github.com/pranayspeed](https://github.com/pranayspeed) \| [pranayspeed.com](https://pranayspeed.com)
 
 
 ## EDUCATION
