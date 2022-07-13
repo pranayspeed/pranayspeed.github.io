@@ -3,7 +3,8 @@ layout: post
 title: Cleaner Bot
 ---
 
-Cleaner bot path simulation aims to solve a problem statement of path planning for a robot in 2 dimensional to compeltely cover entire available and unknown space. The challenge was to plan the path of robot in unknown space.
+Cleaner bot path simulation aims to solve a problem statement of path planning for a robot in 2 dimensional to compeltely cover entire available and unknown space. The challenge was to plan the path of robot in unknown space. <br/>
+JS implementation can be found [here](/projects)
 
 
   > Cleaner bot is a simple implementation of fixed size unknown enviroment exploration algorithm.
