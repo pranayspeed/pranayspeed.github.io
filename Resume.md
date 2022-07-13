@@ -4,7 +4,7 @@ title: Resume
 ---
 # Pranay Meshram
 
-+1 (716)-907-9174 \| [pranaywa@buffalo.edu](mailto:pranaywa@buffalo.edu) \| [linkedin.com/in/pranayspeed](https://linkedin.com/in/pranayspeed) \| [github.com/pranayspeed](https://github.com/pranayspeed)
+[pranaywa@buffalo.edu](mailto:pranaywa@buffalo.edu) \| [linkedin.com/in/pranayspeed](https://linkedin.com/in/pranayspeed) \| [github.com/pranayspeed](https://github.com/pranayspeed)
 
 
 ## EDUCATION
