@@ -1,19 +1,15 @@
 ---
 layout: post
-title: Cleaner Bot
+title: Cleaner Bot – Coverage Planning Demo
+date: 2020-12-20 00:00:00 -0400
+categories: blog
 ---
 
-Cleaner bot path simulation aims to solve a problem statement of path planning for a robot in 2 dimensional to compeltely cover entire available and unknown space. The challenge was to plan the path of robot in unknown space. <br/>
-JS implementation can be found [here](/projects)
+Cleaner Bot: a simple coverage-planning demo exploring unknown 2D space. Built a fixed-size unknown-environment exploration algorithm, visualized its sweep over the map, and linked a short video demo.
 
+Includes an interactive JS implementation to illustrate the circular BFS-style sweep and coverage behavior.
 
-  > Cleaner bot is a simple implementation of fixed size unknown enviroment exploration algorithm.
-
-<iframe width="560"
-        height="315"
-        src="https://www.youtube.com/embed/tzGm5WQNsWA"
-        frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen></iframe>
-
+<div style="margin: 20px 0; text-align: center;">
+  <iframe src="/project/botcleanerjs/index.html" width="320" height="320" style="border:1px solid #ccc;"></iframe>
+</div>
 
