@@ -2,7 +2,7 @@ name: Build and Deploy Jekyll (with jekyll-scholar)
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "main"]
   workflow_dispatch:
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: 3.1
           bundler-cache: true
 
       - name: Install dependencies
