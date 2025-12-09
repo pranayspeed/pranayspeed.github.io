@@ -197,21 +197,11 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
-  - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
-  - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-twitter-plugin
+  - jekyll-paginate
   - jemoji
+  - jekyll-scholar
 
 # Sitemap settings
 defaults:

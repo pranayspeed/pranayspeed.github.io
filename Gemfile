@@ -1,34 +1,13 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
+gem "jekyll", "~> 4.3"
 
-
-# Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'jekyll-archives-v2'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
-    gem 'jekyll-get-json'
-    gem 'jekyll-imagemagick'
-    gem 'jekyll-jupyter-notebook'
-    gem 'jekyll-link-attributes'
-    gem 'jekyll-minifier'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-tabs'
-    # Removed unsupported plugins for GitHub Pages build
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
-
-    gem 'classifier-reborn'  # used for content categorization during the build
+  gem "jekyll-scholar"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jemoji"
 end
 
-# Gems for development or external data fetching (outside :jekyll_plugins)
-group :other_plugins do
-    gem 'css_parser'
-    gem 'feedjira'
-    gem 'httparty'
-    gem 'observer'       # used by jekyll-scholar
-    gem 'ostruct'        # used by jekyll-twitter-plugin
-end
+gem "webrick"
