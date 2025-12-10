@@ -10,4 +10,7 @@ group :jekyll_plugins do
   gem "jemoji"
 end
 
+gem "feedjira"
+gem "httparty"
+gem "css_parser"
 gem "webrick"
