@@ -2,14 +2,15 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Short portfolio of research projects spanning terrain-aware planning, semantic 3D perception, and robust autonomy.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+This page highlights selected projects from my research portfolio, with emphasis on practical autonomy systems for unstructured environments.
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -63,4 +64,3 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-
