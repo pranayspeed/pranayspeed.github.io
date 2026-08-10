@@ -17,10 +17,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false # latest posts removed from front page
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 I'm a Ph.D. student at the University at Buffalo working with [Dr. Karthik Dantu](https://cse.buffalo.edu/faculty/kdantu/) at [DRONES Lab](https://droneslab.github.io/).

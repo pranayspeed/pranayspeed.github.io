@@ -82,12 +82,12 @@ google_site_verification: # your google-site-verification ID (Google Search Cons
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
-# Blog
+# Posts
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: Research updates and project highlights
-permalink: /blog/:year/:title/
+blog_name: Updates # blog_name will be displayed in your updates page
+blog_description: News updates and project highlights
+permalink: /updates/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -237,9 +237,9 @@ jekyll-archives:
   posts:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+      year: "/updates/:year/"
+      tags: "/updates/:type/:name/"
+      categories: "/updates/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
