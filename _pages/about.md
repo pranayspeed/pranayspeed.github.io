@@ -25,6 +25,8 @@ latest_posts:
 
 I'm a Ph.D. student at the University at Buffalo working with [Dr. Karthik Dantu](https://cse.buffalo.edu/faculty/kdantu/) at [DRONES Lab](https://droneslab.github.io/).
 
+In August 2026, our paper **[CLEAR: A Semantic-Geometric Terrain Abstraction for Large-Scale Unstructured Environments](https://arxiv.org/abs/2601.13361)** was accepted to **IEEE Robotics and Automation Letters (RA-L)**. Project page: [CLEAR](https://droneslab.github.io/CLEAR/).
+
 My research focuses on building robust perception and planning systems for autonomous robots operating in unstructured environments. I work on visual SLAM, 3D reconstruction quality metrics, semantic-geometric terrain abstraction, and self-supervised depth estimation from polarization. My work spans from developing efficient edge-based perception models to large-scale planning frameworks that enable reliable autonomy in challenging real-world conditions.
 
 I've led teams to top results in hardware-efficient autonomy—1st in latency at the 2022 ACM/IEEE TinyML Contest (overall 5th) and 4th place at DAC SDC 2022. Previously, I was a Research Scientist Intern at Meta Reality Labs working on self-supervised stereo depth estimation.
@@ -34,4 +36,3 @@ I've led teams to top results in hardware-efficient autonomy—1st in latency at
     <i class="fas fa-file-pdf"></i> Resume
   </a>
 </p>
-
