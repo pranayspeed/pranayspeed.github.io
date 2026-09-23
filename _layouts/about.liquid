@@ -40,6 +40,17 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <section class="featured-work-section" aria-labelledby="featured-work-heading">
+      <div class="section-heading-row">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2 id="featured-work-heading">From terrain maps to field robots</h2>
+        </div>
+        <a class="section-link" href="{{ '/projects/' | relative_url }}">View the full portfolio <span aria-hidden="true">→</span></a>
+      </div>
+      {% include featured_work.liquid %}
+    </section>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

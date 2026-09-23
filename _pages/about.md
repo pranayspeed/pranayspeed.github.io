@@ -19,16 +19,24 @@ announcements:
 
 ---
 
-I'm a Ph.D. student at the University at Buffalo working with [Dr. Karthik Dantu](https://cse.buffalo.edu/faculty/kdantu/) at [DRONES Lab](https://droneslab.github.io/).
+<div class="research-hero">
+  <p class="eyebrow">FIELD ROBOTICS · PLANNING · 3D PERCEPTION</p>
+  <p class="hero-lead">I build representations and planners that help robots reason across large, unstructured environments—from terrain semantics and geometry to mission language and robot-specific constraints.</p>
 
-In August 2026, our paper **[CLEAR: A Semantic-Geometric Terrain Abstraction for Large-Scale Unstructured Environments](https://arxiv.org/abs/2601.13361)** was accepted to **IEEE Robotics and Automation Letters (RA-L)**. Project page: [CLEAR](https://droneslab.github.io/CLEAR/).
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Explore the work</a>
+    <a class="btn btn-outline-primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a class="btn btn-outline-primary" href="{{ '/resume.pdf' | relative_url }}" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a>
+  </div>
+</div>
 
-My research focuses on building robust perception and planning systems for autonomous robots operating in unstructured environments. I work on visual SLAM, 3D reconstruction quality metrics, semantic-geometric terrain abstraction, and self-supervised depth estimation from polarization. My work spans from developing efficient edge-based perception models to large-scale planning frameworks that enable reliable autonomy in challenging real-world conditions.
+I am a Ph.D. student at the University at Buffalo, advised by [Dr. Karthik Dantu](https://cse.buffalo.edu/faculty/kdantu/) in the [DRONES Lab](https://droneslab.github.io/). My research connects language-conditioned planning, semantic-geometric terrain abstraction, hierarchical search, and 3D perception so autonomy systems can make fast, grounded decisions outside structured roads.
 
-I've led teams to top results in hardware-efficient autonomy—1st in latency at the 2022 ACM/IEEE TinyML Contest (overall 5th) and 4th place at DAC SDC 2022. Previously, I was a Research Scientist Intern at Meta Reality Labs working on self-supervised stereo depth estimation.
+<div class="research-metrics" aria-label="Selected research outcomes">
+  <div><strong>1.5 km</strong><span>autonomous field validation</span></div>
+  <div><strong>68–1,280×</strong><span>faster HOPHY path queries</span></div>
+  <div><strong>3</strong><span>peer-reviewed 2026 papers</span></div>
+  <div><strong>1st</strong><span>latency, TinyML 2022</span></div>
+</div>
 
-<p style="margin-top: 10px;">
-  <a class="btn btn-primary" href="{{ '/resume.pdf' | relative_url }}" target="_blank">
-    <i class="fas fa-file-pdf"></i> Resume
-  </a>
-</p>
+My current work develops robot-adaptive off-road planning from natural-language mission preferences. Earlier work spans HOPHY and CLEAR for large-scale terrain reasoning, QAL and Empir3D for point-cloud reconstruction quality, modular visual SLAM, and self-supervised stereo depth from polarization at Meta Reality Labs.

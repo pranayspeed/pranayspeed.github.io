@@ -1,10 +1,16 @@
 ---
 layout: page
-title: QAL - Quality-Aware Loss for 3D Reconstruction
-description: A Loss for Recall–Precision Balance in 3D Reconstruction. Quality-Aware Loss for robust 3D vision and robotics.
-img: assets/img/qal_chair_mvp.png
-importance: 1
-category: work
+title: QAL
+description: A quality-aware loss that separates coverage and precision for point-cloud reconstruction.
+img: assets/img/qal_illustration.png
+image_alt: QAL coverage and attraction terms for point-cloud reconstruction
+importance: 4
+category: research
+year: 2026
+venue: WACV
+featured: true
+highlight: +4.3 average coverage points over Chamfer Distance in the reported experiments.
+tags: [3D vision, Point-cloud learning, Robot manipulation]
 github: 
 website: https://droneslab.github.io/qal/
 related_publications: true
@@ -40,4 +46,3 @@ QAL thus offers a principled, interpretable, and practical objective for robust 
 
 - **Project Website:** [https://droneslab.github.io/qal/](https://droneslab.github.io/qal/)
 - **Paper:** Available on arXiv
-

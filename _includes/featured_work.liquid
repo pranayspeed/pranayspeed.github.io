@@ -1,0 +1,20 @@
+{% assign featured_projects = site.projects | where: "featured", true | sort: "importance" %}
+<div class="featured-work-grid">
+  {% for project in featured_projects limit: 5 %}
+    <article class="featured-work-card{% if forloop.first %} featured-work-card--lead{% endif %}">
+      <a class="featured-work-media" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" {% if project.redirect contains '://' %}target="_blank" rel="noopener"{% endif %}>
+        {% if project.img %}
+          <img src="{{ project.img | relative_url }}" alt="{{ project.image_alt | default: project.title }}" loading="lazy">
+        {% else %}
+          <span class="featured-work-monogram" aria-hidden="true">{{ project.short | default: project.title }}</span>
+        {% endif %}
+      </a>
+      <div class="featured-work-body">
+        <p class="project-meta">{{ project.year }}{% if project.venue %} · {{ project.venue }}{% endif %}</p>
+        <h3><a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" {% if project.redirect contains '://' %}target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a></h3>
+        <p>{{ project.description }}</p>
+        {% if project.highlight %}<p class="project-highlight">{{ project.highlight }}</p>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

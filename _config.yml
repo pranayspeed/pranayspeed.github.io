@@ -9,16 +9,16 @@ last_name: Meshram
 contact_note: >
   Feel free to reach out via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student at the University at Buffalo working on robust perception and planning systems for autonomous robots in unstructured environments.
+  Research portfolio of Pranay Meshram: language-conditioned planning, terrain abstraction, 3D perception, and field robotics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: robotics, computer vision, visual SLAM, path planning, artificial intelligence, PhD student # add your own keywords or leave empty
+keywords: field robotics, off-road navigation, language-conditioned planning, terrain abstraction, computer vision, visual SLAM, 3D reconstruction # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: http://pranayspeed.com # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://pranayspeed.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -53,7 +53,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1120px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -335,7 +335,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # use source images directly; the GitHub Pages build does not generate the advertised WebP variants
   widths:
     - 480
     - 800

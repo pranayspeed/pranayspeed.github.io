@@ -1,19 +1,20 @@
-<div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
+<div class="col mb-4">
+    <article class="card project-card h-100 hoverable">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
+        <a class="project-card-media" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" {% if project.redirect contains '://' %}target="_blank" rel="noopener"{% endif %}>
+          <img src="{{ project.img | relative_url }}" alt="{{ project.image_alt | default: project.title }}" class="card-img-top" loading="lazy">
+        </a>
+      {% else %}
+        <a class="project-card-media project-card-media--type" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" {% if project.redirect contains '://' %}target="_blank" rel="noopener"{% endif %} aria-label="Open {{ project.title }}">
+          <span>{{ project.short | default: project.title }}</span>
+        </a>
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        <p class="project-meta">{{ project.year }}{% if project.venue %} · {{ project.venue }}{% endif %}</p>
+        <h2 class="card-title"><a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" {% if project.redirect contains '://' %}target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a></h2>
         <p class="card-text">{{ project.description }}</p>
+        {% if project.highlight %}<p class="project-highlight">{{ project.highlight }}</p>{% endif %}
+        {% if project.tags %}<p class="project-tags">{{ project.tags | join: " · " }}</p>{% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
@@ -30,6 +31,5 @@
           {% endif %}
         </div>
       </div>
-    </div>
-  </a>
+    </article>
 </div>
