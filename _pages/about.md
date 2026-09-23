@@ -33,11 +33,4 @@ announcements:
 
 I am a Ph.D. student at the University at Buffalo, advised by [Dr. Karthik Dantu](https://cse.buffalo.edu/faculty/kdantu/) in the [DRONES Lab](https://droneslab.github.io/). My research connects language-conditioned planning, semantic-geometric terrain abstraction, hierarchical search, and 3D perception so autonomy systems can make fast, grounded decisions outside structured roads.
 
-<div class="research-metrics" aria-label="Selected research outcomes">
-  <div><strong>1.5 km</strong><span>autonomous field validation</span></div>
-  <div><strong>68–1,280×</strong><span>faster HOPHY path queries</span></div>
-  <div><strong>3</strong><span>peer-reviewed 2026 papers</span></div>
-  <div><strong>1st</strong><span>latency, TinyML 2022</span></div>
-</div>
-
 My current work develops robot-adaptive off-road planning from natural-language mission preferences. Earlier work spans HOPHY and CLEAR for large-scale terrain reasoning, QAL and Empir3D for point-cloud reconstruction quality, modular visual SLAM, and self-supervised stereo depth from polarization at Meta Reality Labs.
