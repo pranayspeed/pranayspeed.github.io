@@ -11,7 +11,7 @@ venue: Ongoing research
 featured: true
 highlight: Two-stage region-guided planning reduces search states by 75% and candidate latency by 20–22% in the current evaluation.
 tags: [Language grounding, Robot adaptation, Off-road navigation]
-github: https://github.com/pranayspeed/LanguageIntentPlannerV2
+github:
 related_publications: false
 ---
 
@@ -30,4 +30,4 @@ The architecture separates language values from path consequences: instructions 
 
 ### Links
 
-- [Source and research artifacts](https://github.com/pranayspeed/LanguageIntentPlannerV2)
+- [Project website](https://droneslab.github.io/LangaugeIntentPlanner/)
