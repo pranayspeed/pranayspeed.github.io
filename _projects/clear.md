@@ -2,8 +2,8 @@
 layout: page
 title: CLEAR
 description: A semantic-geometric terrain abstraction for reliable planning across large, unstructured environments.
-img: assets/img/project_previews/clear_project.png
-image_alt: CLEAR semantic terrain regions over a large outdoor map
+img: assets/img/project_previews/clear.gif
+image_alt: Animation of CLEAR grouping outdoor terrain into regions and planning a route
 importance: 3
 category: research
 year: 2026

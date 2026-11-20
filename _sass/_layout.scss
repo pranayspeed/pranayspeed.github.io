@@ -200,8 +200,14 @@ body.sticky-bottom-footer {
   transition: transform 240ms ease;
 }
 
-.featured-work-card:hover .featured-work-media img,
-.project-card:hover .project-card-media img {
+.featured-work-media img[src$=".gif"],
+.project-card-media img[src$=".gif"] {
+  object-fit: contain;
+  background: #111c2a;
+}
+
+.featured-work-card:hover .featured-work-media img:not([src$=".gif"]),
+.project-card:hover .project-card-media img:not([src$=".gif"]) {
   transform: scale(1.025);
 }
 

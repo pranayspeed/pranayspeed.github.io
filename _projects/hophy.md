@@ -2,8 +2,8 @@
 layout: page
 title: HOPHY
 description: Hierarchical off-road planning with reusable hypergraph abstractions for fast, localized replanning.
-img: assets/img/project_previews/hophy_project.png
-image_alt: HOPHY terrain hierarchy and route-planning visualization
+img: assets/img/project_previews/hophy.gif
+image_alt: Animation of HOPHY replanning an off-road route after a blockage
 importance: 2
 category: research
 year: 2026

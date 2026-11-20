@@ -2,8 +2,8 @@
 layout: page
 title: QAL
 description: A quality-aware loss that separates coverage and precision for point-cloud reconstruction.
-img: assets/img/qal_illustration.png
-image_alt: QAL coverage and attraction terms for point-cloud reconstruction
+img: assets/img/project_previews/qal.gif
+image_alt: Animated comparison of chair point-cloud completions using Chamfer Distance and QAL against ground truth
 importance: 4
 category: research
 year: 2026
